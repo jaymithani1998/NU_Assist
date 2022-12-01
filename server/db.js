@@ -5,10 +5,21 @@ module.exports = () => {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 	};
+
+
+
+
+
+
 	try {
 		mongoose.connect(process.env.DatabaseURL, connectionParams);
 		console.log("Connected to database successfully");
-	} catch (error) {
+	} 
+	
+	
+	
+	
+	catch (error) {
 		console.log(error);
 		console.log("Could not connect database!");
 	}
