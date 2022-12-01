@@ -1,0 +1,9 @@
+try{
+s_a("RuUrcf");
+
+var s_jLb=function(a){s_I.call(this,a.Ka);this.Wc=a.service.Vd};s_v(s_jLb,s_I);s_jLb.nb=s_I.nb;s_jLb.Fa=function(){return{service:{Vd:s_Bm}}};s_jLb.prototype.execute=function(a){var b=this,c={};s_xb(a,function(d,e){c[e]=b.Wc.fetch(d.Ip.Zb(d.Ev))});return c};s_nj(s_nja,s_jLb);
+
+s_b();
+
+}catch(e){_DumpException(e)}
+// Google Inc.
