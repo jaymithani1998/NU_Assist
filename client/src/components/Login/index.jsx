@@ -63,7 +63,7 @@ const Login = () => {
 					</form>
 				</div>
 				<div className={styles.right}>
-				<img src={logo} alt="logo" height="300px"/>;
+				<img src={logo} alt="logo" height="300px"/>
 					<h1>New Here ?</h1>
 					<Link to="/signup">
 						<button type="button" className={styles.white_btn}>
