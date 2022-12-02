@@ -33,6 +33,7 @@ const Login = () => {
 	};
 
 	return (
+		//creation of form
 		<div className={styles.login_container}>
 			<div className={styles.login_form_container}>
 				<div className={styles.left}>
