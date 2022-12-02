@@ -66,14 +66,14 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #146c85;
+	background-color: #3bb19b;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
 .right h1 {
 	margin-top: 0;
-	color: rgb(214, 249, 255);
+	color: white;
 	font-size: 40px;
 	align-self: center;
 }
@@ -92,7 +92,7 @@
 }
 
 .green_btn {
-	background-color: #146c85;
+	background-color: #3bb19b;
 	color: white;
 	margin: 10px;
 }
