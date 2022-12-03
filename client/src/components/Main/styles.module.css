@@ -12,7 +12,11 @@
 	font-size: 25px;
 	margin-left: 20px;
 }
-
+.navbar_element {
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 20px;
+}
 .white_btn {
 	border: none;
 	outline: none;
