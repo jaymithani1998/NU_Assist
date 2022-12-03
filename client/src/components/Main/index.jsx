@@ -8,6 +8,7 @@ import faq2 from './images/faq2.png';
 import faq3 from './images/faq3.png'; 
 import faq4 from './images/faq4.jpg'; 
 
+//IMPORT FOR LINK
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,6 +24,7 @@ const Main = () => {
 
 	return (
 		<html>
+			{/* code for adding navlinks */}
 		<div className={styles.main_container}>
 			<nav className={styles.navbar}>
 				<h1>NU Assist</h1>
@@ -43,6 +45,7 @@ const Main = () => {
 				</button>
 			</nav>
 		</div>
+		{/* code for carousel */}
 		<div>
 			<Carousel>
 				<Carousel.Item>

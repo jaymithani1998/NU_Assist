@@ -5,6 +5,10 @@ import styles from "./styles.module.css";
 import logo from './logo.png'; 
 
 /* Initialisation of Signup*/
+
+
+
+
 const Signup = () => {
 	const [data, setData] = useState({
 		firstName: "",
