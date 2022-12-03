@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+//Initialisation of Main
 const Main = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
@@ -62,6 +62,7 @@ const Main = () => {
 				</Carousel.Item>  
 			</Carousel>
 		</div>
+		{/* Initialisation for accordian */}
 		<div>
 		<Accordion defaultActiveKey="0">
 			<Accordion.Item eventKey="0">
