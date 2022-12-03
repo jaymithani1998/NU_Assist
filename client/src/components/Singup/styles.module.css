@@ -30,7 +30,7 @@
 .left h1 {
 	margin-top: 0;
 	color: white;
-	font-size: 35px;
+	font-size: 25px;
 	align-self: center;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .green_btn {
-	background-color: #3bb19b;
+	background-color: #46777d;
 	color: white;
 	margin: 10px;
 }
