@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Signup from "./components/Singup";
 import Login from "./components/Login";
 
+/* Initialisation of App*/
 function App() {
 	const user = localStorage.getItem("token");
 
