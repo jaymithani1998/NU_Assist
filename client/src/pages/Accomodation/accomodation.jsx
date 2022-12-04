@@ -69,16 +69,7 @@ const Home = () => {
 			</Accordion.Item>
 			<Accordion.Item eventKey="1">
 				<Accordion.Header>Websites for housing and accomodation</Accordion.Header>
-				<Accordion.Body>
-				<ul>
-					<li>Facebook groups of Northeastern</li>
-					<li>Housing group(s)</li>
-					<li><a href="https://boston.craigslist.org/search/hhh?query=Northeastern#search=1~gallery~0~0">Craigslist</a></li>
-					<li><a href="https://bostonpads.com/boston-apartments/">Bostonpads</a> </li>
-					<li><a href="http://offcampuscribs.com">OffCampusCribs.com</a></li>
-					<li><a href="https://www.zillow.com">Zillow</a> </li>
-				</ul>
-				</Accordion.Body>
+				
 			</Accordion.Item>
 			<Accordion.Item eventKey="2">
 				<Accordion.Header>Recommended Locations</Accordion.Header>
