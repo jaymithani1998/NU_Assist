@@ -62,7 +62,6 @@ const Home = () => {
 				</Carousel.Item>  
 			</Carousel>
 		</div>
-        {/* code for accordian */}
 		<div>
 		<Accordion defaultActiveKey="0">
 			<Accordion.Item eventKey="0">
