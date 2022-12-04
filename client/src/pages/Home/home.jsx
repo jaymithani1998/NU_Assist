@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+// Home Page
 const Home = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
