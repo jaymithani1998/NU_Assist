@@ -97,9 +97,7 @@ const Home = () => {
 					<li><strong>Malden (30 mins from NEU) →</strong> Rooms are Spacious, and rent is also convenient for one
 						person to share a room.
 						</li>
-					<li><strong>Malden (30 mins from NEU) →</strong>≈ Rooms are Spacious, and rent is also
-						convenient for one person to share a room
-						</li>
+					
 					<li><strong>Mission Hill (25 - 30 mins from NEU) →</strong> Rooms are Spacious and affordable as well</li>
 					<li><strong>Boylston St →</strong> Happening area and affordable rent but room size is quite small</li>
 				</ul> 
