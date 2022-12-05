@@ -25,6 +25,7 @@ const Home = () => {
 	return (
 		<html>
 			ContactUs
+            Authors : Jay,Siddesh,Danish,Navya.
 		</html>
 	);
 };
