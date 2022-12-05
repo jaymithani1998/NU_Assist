@@ -7,7 +7,6 @@ import faq1 from './images/faq1.png';
 import faq2 from './images/faq2.png'; 
 import faq3 from './images/faq3.png'; 
 import faq4 from './images/faq4.jpg'; 
-
 //IMPORT FOR LINK
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
