@@ -48,12 +48,7 @@ const Home = () => {
 		{/* code for carousel */}
 		<div>
 			<Carousel>
-				<Carousel.Item>
-				<img src={img1} alt="logo" width="100%"/>
-				</Carousel.Item>  
-				<Carousel.Item>
-				<img src={img2} alt="logo" width="100%"/>
-				</Carousel.Item>  
+				 
 				<Carousel.Item>
 				<img src={img3} alt="logo" width="100%"/>
 				</Carousel.Item>  
