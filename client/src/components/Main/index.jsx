@@ -110,11 +110,7 @@ const Main = () => {
 				<Accordion.Header>Grocery Stores</Accordion.Header>
 				<Accordion.Body>
 				<ul>
-					<li><strong>Huntington Avenue →</strong>Closest to the NEU Campus but it's quite expensive. Depends upon the location as well in Huntington Avenue.</li>
-					<li><strong>Mission Main →</strong>Best area to stay for NEU students, 2 people can easily share the room given the room and no. of people sharing. Also, preferred destination by Red Eye Drivers for First Drop off.</li>
-					<li><strong>Peterborough St, Jersey St →</strong> Best area to stay and most students reside in this area.
-						Close to Target, Star, Restaurants, Movie Theatre etc.
-						</li>
+					
 					<li><strong>Hemenway street →</strong> Good Locality and affordable as well. Apartments are spacious as
 						well.
 						</li>
