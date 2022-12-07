@@ -2,9 +2,9 @@ import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
-import logo from './Images/logo.png'; 
+import logo from './images/logo.png'; 
 
-/* Initialisation of Login*/
+
 
 const Login = () => {
 	const [data, setData] = useState({ email: "", password: "" });
@@ -33,7 +33,6 @@ const Login = () => {
 	};
 
 	return (
-		//creation of form
 		<div className={styles.login_container}>
 			<div className={styles.login_form_container}>
 				<div className={styles.left}>
@@ -64,7 +63,7 @@ const Login = () => {
 					</form>
 				</div>
 				<div className={styles.right}>
-				<img src={logo} alt="logo" height="300px"/>
+				<img src={logo} alt="logo" height="300px"/>;
 					<h1>New Here ?</h1>
 					<Link to="/signup">
 						<button type="button" className={styles.white_btn}>

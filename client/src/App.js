@@ -6,7 +6,7 @@ import Login from "./components/Login";
 
 function App() {
 	const user = localStorage.getItem("token");
-{/* adding routes */}
+
 	return (
 		<Routes>
 			{user && <Route path="/" exact element={<Main />} />}
@@ -19,4 +19,5 @@ function App() {
 		</Routes>
 	);
 }
+
 export default App;
