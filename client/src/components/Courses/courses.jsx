@@ -8,21 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import imgHuntington from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgboylston from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgmissionHill from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgmissionMain from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgparkDrive from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgpeter from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
-
-import imgApartments from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgbostonPads from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgcraglist from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgoffcampus from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgrombae from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgzillow from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
-
-
+import cs from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/cs.png";
+import ece from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/ece.png";
+import is from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/is.png";
+import reg from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/reg.png";
 
 
 const Courses = () => {
@@ -97,13 +86,15 @@ const Courses = () => {
                         <a class="list-group-item list-group-item-action" href="#list-item-2">Master of Science in Electrical & Computer Engineering</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-3">Master of Science in Information Systems</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-4">Master of Science in Regulatory Affairs</a>
+						<a class="list-group-item list-group-item-action" href="https://catalog.northeastern.edu/graduate/">More Courses - Course Catalog</a>
+						
                     </div>
                 </div>
                 <div class="col-8">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                         class="scrollspy-example" tabindex="0">
                         <h4 id="list-item-1"></h4>
-                        <img src="img/1 cs image2.jpg" class="img-fluid"/>
+                        <img src={cs} class="img-fluid"/>
                               
                             
                         <p> 
@@ -139,7 +130,7 @@ const Courses = () => {
                             32 total semester hours required Minimum 3.000GPA required
 						</p>
                         <h4 id="list-item-2">Master of Science in Electrical & Computer Engineering </h4>
-                        <img src="img/2 ece image3.jpg" class="img-fluid"/>
+                        <img src={ece} class="img-fluid"/>
 
                         <p> 
                             As an MS in Electrical and Computer Engineering (Master of Science) student, you have the
@@ -180,7 +171,7 @@ const Courses = () => {
                             32 total semester hours required Minimum 3.000 GPA required
                         </p>
                         <h4 id="list-item-3">Master of Science in Information Systems </h4>
-                        <img src="img/What Can I Do With a Masters in Information Systems.jpg" class="img-fluid"/>
+                        <img src={is} class="img-fluid"/>
 
                         <p>
                             We offer cutting-edge expertise in a variety of courses that combine technological advances
@@ -226,7 +217,7 @@ const Courses = () => {
                             32 total semester hours requiredMinimum 3.000 GPA required
                         </p>
                         <h4 id="list-item-4">Master of Science in Regulatory Affairs</h4>
-                        <img src="img/Health-Sector-Regulatory-Compliance-program.jpg" class="img-fluid"/>
+                        <img src={reg} class="img-fluid"/>
 
                         <p> 
                             The rapid advancement of technology within healthcare and other sectors has driven the
@@ -296,7 +287,20 @@ const Courses = () => {
 				<div class="row pt-5">
 					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
                         <div class="card border">
-                            <img src="img/SHIN.webp" class="img-fluid"/>
+                            {/* <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/> */}
+                            <div class="p-3">
+                                <h3>Prof.Vishal Chawla</h3>
+                                <p>Professor Information Systems</p>
+                                
+                                <a href="#">
+                                    <button class="main-btn mt-4">Click Me</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
+                        <div class="card border">
+                            {/* <img src="img/SHIN.webp" class="img-fluid"/> */}
                             <div class="p-3">
 
                                 <h3>Prof.Khaled Bugrara</h3>
@@ -310,10 +314,10 @@ const Courses = () => {
                     </div>
 					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
                         <div class="card border">
-                            <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/>
+                            {/* <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/> */}
                             <div class="p-3">
                                 <h3>Prof.Deniz Erdogmus</h3>
-                                <p>Professor and Vice Chair of Research, Electrical and Computer Engineering</p>
+                                <p>Professor and Vice Chair of Research, ECE</p>
                                 <a href="https://www.northeastern.edu/graduate/bio/deniz-erdogmus/">
                                     <button class="main-btn mt-4">Click Me</button>
                                 </a>
@@ -322,7 +326,7 @@ const Courses = () => {
                     </div>
 					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
                         <div class="card border">
-                            <img src="img/tom-5158824_1280.webp" class="img-fluid"/>
+                            {/* <img src="img/tom-5158824_1280.webp" class="img-fluid"/> */}
                             <div class="p-3">
                                 <h3>Prof. Stephen Amato</h3>
                                 <p>Professor </p>
@@ -335,12 +339,25 @@ const Courses = () => {
                     </div>
 					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
                         <div class="card border">
-                            <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/>
+                            {/* <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/> */}
                             <div class="p-3">
                                 <h3>Prof.Amit Shesh</h3>
                                 <p>Professor Computer Science</p>
                                 
                                 <a href="https://www.northeastern.edu/graduate/bio/amit-shesh/">
+                                    <button class="main-btn mt-4">Click Me</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-4 colmd-6 mb-lg-0 mb-5">
+                        <div class="card border">
+                            {/* <img src="img/goku-base-download-son-goku-base-comics-book-manga-clothing-transparent-png-638787-removebg-preview.png" class="img-fluid"/> */}
+                            <div class="p-3">
+                                <h3>Prof.Tejas Parikh</h3>
+                                <p>Professor CSYE</p>
+                                
+                                <a href="#">
                                     <button class="main-btn mt-4">Click Me</button>
                                 </a>
                             </div>
