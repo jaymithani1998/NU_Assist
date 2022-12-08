@@ -1,16 +1,18 @@
 .navbar {
 	width: 100%;
 	height: 70px;
-	background-color: #3bb19b;
+	background-color: #67b9aa;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .navbar h1 {
-	color: white;
+	color: rgb(251, 248, 248);
 	font-size: 25px;
 	margin-left: 20px;
+	margin-top: 10px;
+	text-shadow: none;
 }
 .navbar_element {
 	color: aliceblue;
