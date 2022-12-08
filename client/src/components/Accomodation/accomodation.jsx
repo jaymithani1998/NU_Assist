@@ -2,10 +2,10 @@ import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 
 
-const Acc = () => {
+const Accomodation = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
-		window.location.reload();
+		window.location.origin = 'http://localhost:3000';
 	};
 
 	return (
@@ -26,9 +26,10 @@ const Acc = () => {
 				<Link to="/" className={styles.navbar_element}>
 					Courses
 				</Link>
-			
 				<button className={styles.white_btn} onClick={handleLogout}>
-					Logout
+					<Link to="/login" >
+						Logout
+					</Link>
 				</button>
 			</nav>
 		</div>
@@ -37,4 +38,4 @@ const Acc = () => {
 	);
 };
 
-export default Acc;
+export default Accomodation;
