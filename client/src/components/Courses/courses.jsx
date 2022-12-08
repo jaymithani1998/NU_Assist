@@ -73,8 +73,7 @@ const Courses = () => {
 				</button>
 			</nav>
 		</div>
-		This is Courses Page
-
+		This is Course Page
 		</html>
 		
 
