@@ -1,17 +1,17 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courseTop.png"
+import topBanner from "./images/courseTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import cs from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/cs.png";
-import ece from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/ece.png";
-import is from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/is.png";
-import reg from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/reg.png";
+import cs from "./images/courses/cs.png";
+import ece from "./images/courses/ece.png";
+import is from "./images/courses/is.png";
+import reg from "./images/courses/reg.png";
 
 
 const Courses = () => {

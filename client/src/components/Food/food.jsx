@@ -1,32 +1,32 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/foodTop.png"
+import topBanner from "./images/foodTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import imagedguru from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/dguru.png";
-import imagehalal from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/halal.png";
-import imageindianQuality from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/indianQuality.png";
-import imagemelaModern from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/melaModern.png";
-import imagemumbaiSpice from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/mumbaiSpice.png";
+import imagedguru from "./images/restaurants/dguru.png";
+import imagehalal from "./images/restaurants/halal.png";
+import imageindianQuality from "./images/restaurants/indianQuality.png";
+import imagemelaModern from "./images/restaurants/melaModern.png";
+import imagemumbaiSpice from "./images/restaurants/mumbaiSpice.png";
 
-import menuButterChicken from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/butterChicken.png";
-import menuChicken from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/chicken.png";
-import menuChole from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/chole.png";
-import menuDosa from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/dosa.png";
-import menuPavbhaji from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/pavbhaji.png";
-import menuPizza from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/pizza.png";
+import menuButterChicken from "./images/menu/butterChicken.png";
+import menuChicken from "./images/menu/chicken.png";
+import menuChole from "./images/menu/chole.png";
+import menuDosa from "./images/menu/dosa.png";
+import menuPavbhaji from "./images/menu/pavbhaji.png";
+import menuPizza from "./images/menu/pizza.png";
 
-import imagedesi from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/desi.png";
-import imageharvest from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/harvest.png";
-import imageindianK from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/indianK.png";
-import imageindianP from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/indianp.png";
-import imageshanti from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/shanti.png";
-import imagevaanga from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/vaanga.png";
+import imagedesi from "./images/restaurants2/desi.png";
+import imageharvest from "./images/restaurants2/harvest.png";
+import imageindianK from "./images/restaurants2/indianK.png";
+import imageindianP from "./images/restaurants2/indianp.png";
+import imageshanti from "./images/restaurants2/shanti.png";
+import imagevaanga from "./images/restaurants2/vaanga.png";
 
 
 const Food = () => {

@@ -1,26 +1,26 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/accmodationTop.png"
+import topBanner from "./images/accmodationTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import imgHuntington from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgboylston from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgmissionHill from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgmissionMain from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgparkDrive from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgpeter from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
+import imgHuntington from "./images/about/huntingtonAvenue.png"
+import imgboylston from "./images/about/boylston.png"
+import imgmissionHill from "./images/about/missionHill.png"
+import imgmissionMain from "./images/about/missionMain.png"
+import imgparkDrive from "./images/about/parkDrive.png"
+import imgpeter from "./images/about/peter.png"
 
-import imgApartments from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgbostonPads from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgcraglist from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgoffcampus from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgrombae from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgzillow from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
+import imgApartments from "./images/about/huntingtonAvenue.png"
+import imgbostonPads from "./images/about/boylston.png"
+import imgcraglist from "./images/about/missionHill.png"
+import imgoffcampus from "./images/about/missionMain.png"
+import imgrombae from "./images/about/parkDrive.png"
+import imgzillow from "./images/about/peter.png"
 
 
 
