@@ -25,7 +25,7 @@ import imgzillow from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/
 
 
 
-const Accomodation = () => {
+const Food = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
 		window.location.origin = 'http://localhost:3000';
@@ -522,10 +522,43 @@ const Accomodation = () => {
 				</div>
 			</section>
 
-										
+			{/* Section - Footer							 */}
+			<footer id="footer">
+			<div class="footerc pt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<div class="footer-social pb-4 text-center">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fab fa-dribbble"></i></a>
+								<a href="#"><i class="fab fa-linkedin"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<form class="newsletter">
+								<div class="d-flex">
+									<input type="email" class="form-control" placeholder="Email US"/>
+									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button class="main-btn" >Send Message</button></a>
+								</div>
+							</form>
+						</div>
+						<div class="col-sm-12">
+							<div class="footer-copy">
+								<div class="copy-right text-center pt-5">
+									<p class="text-light">&copy; 2022. All rights reserved.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 		</html>
 	);
 };
 
-export default Accomodation;
+export default Food;
