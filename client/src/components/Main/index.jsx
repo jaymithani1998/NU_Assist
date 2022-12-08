@@ -31,13 +31,13 @@ const Main = () => {
 				<Link to="/" className={styles.navbar_element}>
 						Home
 				</Link>
-				<Link to="/acc" className={styles.navbar_element}>
+				<Link to="/accomodation" className={styles.navbar_element}>
 					Accomodation
 				</Link>
-				<Link to="/" className={styles.navbar_element}>
+				<Link to="/food" className={styles.navbar_element}>
 					Food Joints
 				</Link>
-				<Link to="/" className={styles.navbar_element}>
+				<Link to="/courses" className={styles.navbar_element}>
 					Courses
 				</Link>
 			
