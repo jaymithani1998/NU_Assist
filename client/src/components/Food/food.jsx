@@ -520,10 +520,10 @@ const Food = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+		</section>
 
-			{/* Section - Footer							 */}
-			<footer id="footer">
+		{/* Section - Footer							 */}
+		<footer id="footer">
 			<div class="footerc pt-5">
 				<div class="container">
 					<div class="row">
