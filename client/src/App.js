@@ -2,7 +2,9 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Main from "./components/Main";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-// import About from "./pages/About/About";
+
+import Accomodation from "./components/Acc/acc.jsx";
+
 
 function App() {
 	const user = localStorage.getItem("token");
@@ -10,12 +12,16 @@ function App() {
 	return (
 		<Routes>
 			{user && <Route path="/" exact element={<Main />} />}
+
 			<Route path="/signup" exact element={<Signup />} />
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
-			<Route path="/accomodation" exact element={<Main />} />
-			<Route path="/food" exact element={<Main />} />
-			<Route path="/courses" exact element={<Main />} />
+			<Route path="/acc" exact element={<Accomodation />} />
+			
+			
+{/* 
+			<Route path="/accomodation" exact element={<Accomodation />} /> */}
+			
 		</Routes>
 	);
 }

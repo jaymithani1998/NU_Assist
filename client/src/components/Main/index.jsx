@@ -15,6 +15,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
 const Main = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
@@ -23,13 +24,14 @@ const Main = () => {
 
 	return (
 		<html>
+		{/* NavBar */}
 		<div className={styles.main_container}>
 			<nav className={styles.navbar}>
 				<h1>NU Assist</h1>
 				<Link to="/" className={styles.navbar_element}>
 						Home
 				</Link>
-				<Link to="/" className={styles.navbar_element}>
+				<Link to="/acc" className={styles.navbar_element}>
 					Accomodation
 				</Link>
 				<Link to="/" className={styles.navbar_element}>
@@ -38,11 +40,15 @@ const Main = () => {
 				<Link to="/" className={styles.navbar_element}>
 					Courses
 				</Link>
+			
 				<button className={styles.white_btn} onClick={handleLogout}>
 					Logout
 				</button>
 			</nav>
 		</div>
+		
+
+		{/* Caruosel */}
 		<div>
 			<Carousel>
 				<Carousel.Item>
@@ -59,6 +65,9 @@ const Main = () => {
 				</Carousel.Item>  
 			</Carousel>
 		</div>
+
+
+		{/* Accordian */}
 		<div>
 		<Accordion defaultActiveKey="0">
 			<Accordion.Item eventKey="0">
@@ -106,29 +115,18 @@ const Main = () => {
 				<Accordion.Header>Grocery Stores</Accordion.Header>
 				<Accordion.Body>
 				<ul>
-					<li><strong>Huntington Avenue →</strong>Closest to the NEU Campus but it's quite expensive. Depends upon the location as well in Huntington Avenue.</li>
-					<li><strong>Mission Main →</strong>Best area to stay for NEU students, 2 people can easily share the room given the room and no. of people sharing. Also, preferred destination by Red Eye Drivers for First Drop off.</li>
-					<li><strong>Peterborough St, Jersey St →</strong> Best area to stay and most students reside in this area.
-						Close to Target, Star, Restaurants, Movie Theatre etc.
-						</li>
-					<li><strong>Hemenway street →</strong> Good Locality and affordable as well. Apartments are spacious as
-						well.
-						</li>
-					<li><strong>Park Drive →</strong> Convenient and reliable. Fits in the budget but rooms are not spacious.</li>
-					<li><strong>City View apartments →</strong> Rooms have best view of Boston, but little expensive.</li>
-					<li><strong>Malden (30 mins from NEU) →</strong> Rooms are Spacious, and rent is also convenient for one
-						person to share a room.
-						</li>
-					<li><strong>Malden (30 mins from NEU) →</strong>≈ Rooms are Spacious, and rent is also
-						convenient for one person to share a room
-						</li>
-					<li><strong>Mission Hill (25 - 30 mins from NEU) →</strong> Rooms are Spacious and affordable as well</li>
-					<li><strong>Boylston St →</strong> Happening area and affordable rent but room size is quite small</li>
-				</ul> 
+					<li>College Convenience</li>
+					<li>Stop & Shop</li>
+					<li>Trader Joe's</li>
+					<li>Whole Foods Market</li>
+					<li>Patel Brothers</li>
+            	</ul>
 				</Accordion.Body>
 			</Accordion.Item>
 		</Accordion>
 		</div>
+
+		{/* Cards for FAQ's */}
 		<div class="container mt-10" >
 			<div class="row">
 				<div className='col-3'>
@@ -176,8 +174,8 @@ const Main = () => {
 							<Card.Body>
 								<Card.Title>Card Title</Card.Title>
 								<Card.Text>
-								Some quick example text to build on the card title and make up the
-								bulk of the card's content.
+									Some quick example text to build on the card title and make up the
+									bulk of the card's content.
 								</Card.Text>
 								<Button variant="primary">Go somewhere</Button>
 							</Card.Body>
