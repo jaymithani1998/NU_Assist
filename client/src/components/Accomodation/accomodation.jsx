@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 
 
-const Acc = () => {
+const Accomodation = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
 		window.location.origin = 'http://localhost:3000';
@@ -38,4 +38,4 @@ const Acc = () => {
 	);
 };
 
-export default Acc;
+export default Accomodation;

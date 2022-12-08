@@ -3,7 +3,7 @@ import Main from "./components/Main";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 
-import Accomodation from "./components/Acc/acc.jsx";
+import Accomodation from "./components/Accomodation/accomodation";
 
 
 function App() {
