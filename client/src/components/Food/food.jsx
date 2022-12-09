@@ -171,7 +171,7 @@ const Food = () => {
 								</a>
 							</div>
 							<div class="cat-title">
-								<a href="#">Chicken</a>
+								<a href="#">Chicken nuggets</a>
 							</div>
 						</div>
 					</div>

@@ -262,11 +262,11 @@ p {
 
 .our-menu .cat-title a{
     text-align: center;
-    font-size: 0.8125rem;
+    font-size: 1.1125rem;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 1000;
     color: var(--black-color);
     text-decoration: none; /*update*/
 }
