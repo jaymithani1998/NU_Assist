@@ -33,8 +33,8 @@ ol {
 
 /* variable define */
 :root {
-    --primary-color: #FFC222;
-    --secundary-color: #00a149;
+    --primary-color: #FFC222 !important;
+    --secundary-color: #00a149 !important;
     --white-color: #fff;
     --text-color: #b0b0b0;
     --black-color: #1E1D23;
@@ -245,10 +245,10 @@ p {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 2px dotted var(--secundary-color);
+    border:none !important;
     z-index: -1;
     transform: translateX(-50%) translateY(-50%) scale(0);
-    background: var(--primary-color);
+    background:white !important;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
     -o-transition: all .4s ease;
@@ -262,7 +262,7 @@ p {
 
 .our-menu .cat-title a{
     text-align: center;
-    font-size: 1.1125rem;
+    font-size: 0.8125rem;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -336,12 +336,16 @@ p {
     color: var(--primary-color);
     padding-bottom: 1rem;
     border-bottom: 0.0625rem solid #eee;
+    
 }
 
 .explore-food p {
     color: var(--text-color);
     font-size: 14px;
     line-height: 22px;
+    margin-inline-start:5px;
+    
+
 }
 
 
@@ -361,6 +365,7 @@ p {
     background-color: var(--black-color);
     border-radius: 0.9375rem;
     text-align: center;
+    border-radius: 50%;
 }
 
 .testimonial-section .carousel-caption img {

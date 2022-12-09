@@ -240,9 +240,8 @@ const Accomodation = () => {
 									<img src={imgzillow} class="img-fluid"/>
 									<div class="p-3">
 										<h3>ZILLOW</h3>
-										<p>illow is a great resource for shopping for Real Estate. The prices tend to be full
-											blown retail but now the once exclusive multiple listing service that the Realtors
-											had at their disposal is now at your disposal thanks to Zillow.</p>
+										<p>Zillow is a great resource for shopping for Real Estate. The prices tend to be full
+											blown retail but now the once exclusive multiple listing service is now at your disposal thanks to Zillow.</p>
 
 										
 										
@@ -281,7 +280,7 @@ const Accomodation = () => {
 									<div class="p-3">
 										<h3>OFFCAMPUSCRIBS.COM</h3>
 										<p>Browse our rental listings for off campus housing, apartments, terraces, near Boston,
-											MA. Real estate for rent, college students, off campus living.</p>
+											MA. Real estate for rent, college students, off campus housing.</p>
 
 										
 										<a href="tel:(617) 714-5051">
@@ -420,9 +419,9 @@ const Accomodation = () => {
 							<div class="col-md-6">
 								<form class="newsletter">
 									<div class="d-flex">
-										<input type="email" class="form-control" placeholder="Email US"/>
+										<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
 										<a to="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback">
-											<button class="main-btn">Send Message</button></a>
+											<button style={{width:"9rem"}} class="main-btn">Send Message</button></a>
 									</div>
 								</form>
 							</div>
