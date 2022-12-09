@@ -23,6 +23,7 @@ const Courses = () => {
 	const accTopBannerStyle =`
 	.top-banner {
 		width: 100%;
+        height:100vh;
 	 	background-size: cover;
 	 	padding: 16.875rem 0 9.375rem;
  	}
@@ -80,7 +81,7 @@ const Courses = () => {
 		<section id="about">
         	<div class="about-section wrapper">
             <div class="row">
-                <div class="col-4">
+                {/* <div class="col-4">
                     <div id="list-example" class="list-group">
                         <a class="list-group-item list-group-item-action" href="#list-item-1">Master of Science in Computer Science</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-2">Master of Science in Electrical & Computer Engineering</a>
@@ -89,8 +90,8 @@ const Courses = () => {
 						<a class="list-group-item list-group-item-action" href="https://catalog.northeastern.edu/graduate/">More Courses - Course Catalog</a>
 						
                     </div>
-                </div>
-                <div class="col-8">
+                </div> */}
+                <div class="col-12">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                         class="scrollspy-example" tabindex="0">
                         <h4 id="list-item-1"></h4>
