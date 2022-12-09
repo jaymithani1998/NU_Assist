@@ -1,17 +1,17 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courseTop.png"
+import topBanner from "./images/courseTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import cs from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/cs.png";
-import ece from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/ece.png";
-import is from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/is.png";
-import reg from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Courses/images/courses/reg.png";
+import cs from "./images/courses/cs.png";
+import ece from "./images/courses/ece.png";
+import is from "./images/courses/is.png";
+import reg from "./images/courses/reg.png";
 
 
 const Courses = () => {
@@ -23,6 +23,7 @@ const Courses = () => {
 	const accTopBannerStyle =`
 	.top-banner {
 		width: 100%;
+        height:100vh;
 	 	background-size: cover;
 	 	padding: 16.875rem 0 9.375rem;
  	}
@@ -50,7 +51,7 @@ const Courses = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses
@@ -80,7 +81,7 @@ const Courses = () => {
 		<section id="about">
         	<div class="about-section wrapper">
             <div class="row">
-                <div class="col-4">
+                {/* <div class="col-4">
                     <div id="list-example" class="list-group">
                         <a class="list-group-item list-group-item-action" href="#list-item-1">Master of Science in Computer Science</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-2">Master of Science in Electrical & Computer Engineering</a>
@@ -89,15 +90,13 @@ const Courses = () => {
 						<a class="list-group-item list-group-item-action" href="https://catalog.northeastern.edu/graduate/">More Courses - Course Catalog</a>
 						
                     </div>
-                </div>
-                <div class="col-8">
+                </div> */}
+                <div class="col-12">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                         class="scrollspy-example" tabindex="0">
-                        <h4 id="list-item-1"></h4>
-                        <img src={cs} class="img-fluid"/>
-                              
-                            
-                        <p> 
+                        <h4 id="list-item-1" style={{textAlign:"center"}}>Master of Science in Computer Science</h4>
+                        <img src={cs} class="img-fluid"/>                        
+                        <p style={{padding:"25px"}}>
                             Northeastern University’s Master of Science in Computer Science is designed to prepare
                             students for a variety of careers in computer science. The program combines both computing
                             and important application domains—enabling you to increase your broad-based knowledge in the
@@ -129,10 +128,10 @@ const Courses = () => {
                             <br/>
                             32 total semester hours required Minimum 3.000GPA required
 						</p>
-                        <h4 id="list-item-2">Master of Science in Electrical & Computer Engineering </h4>
+                        <h4 id="list-item-2" style={{textAlign:"center"}}>Master of Science in Electrical & Computer Engineering </h4>
                         <img src={ece} class="img-fluid"/>
 
-                        <p> 
+                        <p style={{padding:"25px"}}>
                             As an MS in Electrical and Computer Engineering (Master of Science) student, you have the
                             flexibility to specialize in an area of interest with eight concentrations , research areas,
                             and experiential learning options. You will receive deep fundamental and practical knowledge
@@ -170,10 +169,9 @@ const Courses = () => {
                             <br/>
                             32 total semester hours required Minimum 3.000 GPA required
                         </p>
-                        <h4 id="list-item-3">Master of Science in Information Systems </h4>
+                        <h4 id="list-item-3" style={{textAlign:"center"}}>Master of Science in Information Systems </h4>
                         <img src={is} class="img-fluid"/>
-
-                        <p>
+                        <p style={{padding:"25px"}}>
                             We offer cutting-edge expertise in a variety of courses that combine technological advances
                             and business practices. We stress creative and inventive approaches to problem solving,
                             which necessitates empowering students so that they can take charge of their own software
@@ -216,10 +214,9 @@ const Courses = () => {
                             <br/>
                             32 total semester hours requiredMinimum 3.000 GPA required
                         </p>
-                        <h4 id="list-item-4">Master of Science in Regulatory Affairs</h4>
+                        <h4 id="list-item-4" style={{textAlign:"center"}}>Master of Science in Regulatory Affairs</h4>
                         <img src={reg} class="img-fluid"/>
-
-                        <p> 
+                        <p style={{padding:"25px"}}>
                             The rapid advancement of technology within healthcare and other sectors has driven the
                             evolution of a complex global regulatory landscape and concurrently created the need for
                             professionals with the skills necessary to facilitate the commercialization of products used
@@ -293,7 +290,7 @@ const Courses = () => {
                                 <p>Professor Information Systems</p>
                                 
                                 <a href="#">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -302,12 +299,11 @@ const Courses = () => {
                         <div class="card border">
                             {/* <img src="img/SHIN.webp" class="img-fluid"/> */}
                             <div class="p-3">
-
                                 <h3>Prof.Khaled Bugrara</h3>
                                 <p>MS Information System Dean</p>
 
                                 <a href="https://www.northeastern.edu/graduate/bio/khaled-bugrara/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -319,7 +315,7 @@ const Courses = () => {
                                 <h3>Prof.Deniz Erdogmus</h3>
                                 <p>Professor and Vice Chair of Research, ECE</p>
                                 <a href="https://www.northeastern.edu/graduate/bio/deniz-erdogmus/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -332,7 +328,7 @@ const Courses = () => {
                                 <p>Professor </p>
                                 
                                 <a href="https://www.northeastern.edu/graduate/program/master-of-science-in-regulatory-affairs-boston-18359/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -345,7 +341,7 @@ const Courses = () => {
                                 <p>Professor Computer Science</p>
                                 
                                 <a href="https://www.northeastern.edu/graduate/bio/amit-shesh/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -358,7 +354,7 @@ const Courses = () => {
                                 <p>Professor CSYE</p>
                                 
                                 <a href="#">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -438,8 +434,9 @@ const Courses = () => {
 						<div class="col-md-6">
 							<form class="newsletter">
 								<div class="d-flex">
-									<input type="email" class="form-control" placeholder="Email US"/>
-									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button class="main-btn" >Send Message</button></a>
+									<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
+									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> 
+                                        <button class="main-btn" >Send Message</button></a>
 								</div>
 							</form>
 						</div>

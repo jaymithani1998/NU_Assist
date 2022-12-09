@@ -1,26 +1,26 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/accmodationTop.png"
+import topBanner from "./images/accmodationTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import imgHuntington from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgboylston from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgmissionHill from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgmissionMain from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgparkDrive from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgpeter from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
+import imgHuntington from "./images/about/huntingtonAvenue.png"
+import imgboylston from "./images/about/boylston.png"
+import imgmissionHill from "./images/about/missionHill.png"
+import imgmissionMain from "./images/about/missionMain.png"
+import imgparkDrive from "./images/about/parkDrive.png"
+import imgpeter from "./images/about/peter.png"
 
-import imgApartments from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/huntingtonAvenue.png"
-import imgbostonPads from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/boylston.png"
-import imgcraglist from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionHill.png"
-import imgoffcampus from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/missionMain.png"
-import imgrombae from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/parkDrive.png"
-import imgzillow from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/images/about/peter.png"
+import imgApartments from "./images/about/huntingtonAvenue.png"
+import imgbostonPads from "./images/about/boylston.png"
+import imgcraglist from "./images/about/missionHill.png"
+import imgoffcampus from "./images/about/missionMain.png"
+import imgrombae from "./images/about/parkDrive.png"
+import imgzillow from "./images/about/peter.png"
 
 
 
@@ -61,7 +61,7 @@ const Accomodation = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses
@@ -75,7 +75,7 @@ const Accomodation = () => {
 		</div>
 		
 			<section id="home">
-				<div class="container-fluid px-0 top-banner" style={{ backgroundImage: `url(${topBanner})`}}>
+				<div class="container-fluid px-0 top-banner" style={{ height:'100vh',backgroundImage: `url(${topBanner})`}}>
 					<div class="container" >
 						<div class="row">
 							<div class="col-lg-5 col-md-6">
@@ -240,9 +240,8 @@ const Accomodation = () => {
 									<img src={imgzillow} class="img-fluid"/>
 									<div class="p-3">
 										<h3>ZILLOW</h3>
-										<p>illow is a great resource for shopping for Real Estate. The prices tend to be full
-											blown retail but now the once exclusive multiple listing service that the Realtors
-											had at their disposal is now at your disposal thanks to Zillow.</p>
+										<p>Zillow is a great resource for shopping for Real Estate. The prices tend to be full
+											blown retail but now the once exclusive multiple listing service is now at your disposal thanks to Zillow.</p>
 
 										
 										
@@ -281,7 +280,7 @@ const Accomodation = () => {
 									<div class="p-3">
 										<h3>OFFCAMPUSCRIBS.COM</h3>
 										<p>Browse our rental listings for off campus housing, apartments, terraces, near Boston,
-											MA. Real estate for rent, college students, off campus living.</p>
+											MA. Real estate for rent, college students, off campus housing.</p>
 
 										
 										<a href="tel:(617) 714-5051">
@@ -420,9 +419,9 @@ const Accomodation = () => {
 							<div class="col-md-6">
 								<form class="newsletter">
 									<div class="d-flex">
-										<input type="email" class="form-control" placeholder="Email US"/>
+										<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
 										<a to="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback">
-											<button class="main-btn">Send Message</button></a>
+											<button style={{width:"9rem"}} class="main-btn">Send Message</button></a>
 									</div>
 								</form>
 							</div>

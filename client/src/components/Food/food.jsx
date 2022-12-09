@@ -1,32 +1,32 @@
 import styles from "./styles.module.css";
-import "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Accomodation/style.css";
+import "./style.css";
 import { Link } from "react-router-dom";
-import topBanner from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/foodTop.png"
+import topBanner from "./images/foodTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 
-import imagedguru from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/dguru.png";
-import imagehalal from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/halal.png";
-import imageindianQuality from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/indianQuality.png";
-import imagemelaModern from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/melaModern.png";
-import imagemumbaiSpice from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants/mumbaiSpice.png";
+import imagedguru from "./images/restaurants/dguru.png";
+import imagehalal from "./images/restaurants/halal.png";
+import imageindianQuality from "./images/restaurants/indianQuality.png";
+import imagemelaModern from "./images/restaurants/melaModern.png";
+import imagemumbaiSpice from "./images/restaurants/mumbaiSpice.png";
 
-import menuButterChicken from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/butterChicken.png";
-import menuChicken from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/chicken.png";
-import menuChole from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/chole.png";
-import menuDosa from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/dosa.png";
-import menuPavbhaji from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/pavbhaji.png";
-import menuPizza from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/menu/pizza.png";
+import menuButterChicken from "./images/menu/butterChicken.png";
+import menuChicken from "./images/menu/chicken.png";
+import menuChole from "./images/menu/chole.png";
+import menuDosa from "./images/menu/dosa.png";
+import menuPavbhaji from "./images/menu/pavbhaji.png";
+import menuPizza from "./images/menu/pizza.png";
 
-import imagedesi from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/desi.png";
-import imageharvest from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/harvest.png";
-import imageindianK from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/indianK.png";
-import imageindianP from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/indianp.png";
-import imageshanti from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/shanti.png";
-import imagevaanga from "/Users/jaymithani/Web_Final/INFO6150_FinalProject/client/src/components/Food/images/restaurants2/vaanga.png";
+import imagedesi from "./images/restaurants2/desi.png";
+import imageharvest from "./images/restaurants2/harvest.png";
+import imageindianK from "./images/restaurants2/indianK.png";
+import imageindianP from "./images/restaurants2/indianp.png";
+import imageshanti from "./images/restaurants2/shanti.png";
+import imagevaanga from "./images/restaurants2/vaanga.png";
 
 
 const Food = () => {
@@ -65,7 +65,7 @@ const Food = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses
@@ -81,7 +81,7 @@ const Food = () => {
 		{/* Top Section */}
 
 		<section id="home">
-		<div class="container-fluid px-0 top-banner" style={{ backgroundImage: `url(${topBanner})`}}>
+		<div class="container-fluid px-0 top-banner" style={{ height:'100vh',backgroundImage: `url(${topBanner})`}}>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-md-6">
@@ -171,7 +171,7 @@ const Food = () => {
 								</a>
 							</div>
 							<div class="cat-title">
-								<a href="#">Chicken</a>
+								<a href="#">Chicken nuggets</a>
 							</div>
 						</div>
 					</div>
@@ -197,7 +197,7 @@ const Food = () => {
 							<a href="https://www.guruthecaterer.com">guruthecaterer.com</a>
 							</p>
 							<p>
-								Address:92 Bedford St 43 Kingston St. Corner, Boston, MA 02110
+								92 Bedford St 43 Kingston St. Corner, Boston, MA 02110
 							</p>
 							<a href="tel:(617) 331-5138">
 								<button class="main-btn mt-4" >Call</button>
@@ -217,7 +217,7 @@ const Food = () => {
 							</p>
 							
 							<p>
-							Address:736 Huntington Ave, Boston, MA 02115
+							736 Huntington Ave, Boston, MA 02115
 							</p>
 						
 						<a href="tel:(617) 232-5000">
@@ -249,7 +249,7 @@ const Food = () => {
 							<a href="https://www.mumbaispicebostonma.com/#menu">mumbaispicebostonma.com</a>
 							</p>
 							<p>
-								Address:251 Massachusetts Ave, Boston, MA 02115
+								251 Massachusetts Ave, Boston, MA 02115
 								</p>
 							
 							<a href="tel:(857) 350-4305">
@@ -271,7 +271,7 @@ const Food = () => {
 							<a href="https://indiaquality.com/">indiaquality.com</a>
 							</p>
 							<p>
-								Address:484 Commonwealth Ave, Boston, MA 02215
+								484 Commonwealth Ave, Boston, MA 02215
 								</p>
 							
 							<a href="tel:(617) 267-4499">
@@ -305,7 +305,7 @@ const Food = () => {
 							<a href="https://melainboston.com/">melainboston.com</a>
 							</p>
 							<p>
-								Address: 578 Tremont St suite1, Boston, MA 02118
+								578 Tremont St suite1, Boston, MA 02118
 								</p>
 							
 							<a href="tel:((617) 859-4805">
@@ -344,7 +344,7 @@ const Food = () => {
 										</p>
 										<a href="https://direct.chownow.com/order/3722/locations/4818">ordering.chownow.com</a>
 									<p>
-										Address: 17 Central Square, Cambridge, MA 02139
+										17 Central Square, Cambridge, MA 02139
 									</p>
 									<a href="tel:(617) 547-7463">
 										<button class="main-btn mt-4" >Call</button>
@@ -360,13 +360,13 @@ const Food = () => {
 							<img src={imagevaanga} class="img-fluid"/>
 							<div class="p-3">
 								<h3>VAANGA BOSTON</h3>
-								<p>Eclectic counter serve dishing up classic & creative South Indian dishes from dosas to fusion tacos.
+								<p>Eclectic counter serve dishing up classic & creative South Indian dishes.
 
 								
 								</p>
 								<a href="http://places.singleplatform.com/vaanga/menu?ref=google">places.singleplatform.com</a>
 							<p>
-								Address: 102 Water St, Boston, MA 02109
+								102 Water St, Boston, MA 02109
 							</p>
 							<a href="tel:(617) 624-0300">
 								<button class="main-btn mt-4" >Call</button>
@@ -388,7 +388,7 @@ const Food = () => {
 									<a href="https://www.harvestofindiacambridge.com/">harvestofindiacambridge.com</a>
 							
 								<p>
-									Address: 18 Eliot St, Cambridge, MA 02138
+									18 Eliot St, Cambridge, MA 02138
 								</p>
 								<a href="tel:(617) 441-4034">
 									<button class="main-btn mt-4" >Call</button>
@@ -404,13 +404,13 @@ const Food = () => {
 							<img src={imageshanti} class="img-fluid"/>
 							<div class="p-3">
 								<h3>SHANTI RESTAUTANT</h3>
-								<p>Indian & Bangladeshi dishes & a lunch buffet in an old-world setting with traditional accents.
+								<p>Indian & Bangladeshi dishes & a lunch buffet.
 									
 									</p>
 									<a href="https://www.shantiboston.com/menus">shantiboston.com</a>
 							
 								<p>
-									Address: 7 Broad Canal Way, Cambridge, MA 02142
+									7 Broad Canal Way, Cambridge, MA 02142
 								</p>
 								<a href="tel:(617) 714-5051">
 									<button class="main-btn mt-4" >Call</button>--
@@ -425,14 +425,14 @@ const Food = () => {
 						<div class="cardaa border">
 							<img src={imageindianK} class="img-fluid"/>
 							<div class="p-3">
-								<h3>INDIAN KITCHEN ALLSTON</h3>
+								<h3>INDIAN KITCHEN </h3>
 								<p>An Indian Restaurant famous for its Punjabi cuisines.
 									
 								</p>
 								<a href="https://www.indiankitchen450.com/order/">indiankitchen450.com</a>
 						
 							<p>
-								Address: 450 Cambridge St, Allston, MA 02134
+								450 Cambridge St, Allston, MA 02134
 							</p>
 							<a href="tel:(617) 254-1019">
 								<button class="main-btn mt-4" >Call</button>
@@ -544,8 +544,8 @@ const Food = () => {
 						<div class="col-md-6">
 							<form class="newsletter">
 								<div class="d-flex">
-									<input type="email" class="form-control" placeholder="Email US"/>
-									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button class="main-btn" >Send Message</button></a>
+									<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
+									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button style={{width:"9rem"}} class="main-btn" >Send Message</button></a>
 								</div>
 							</form>
 						</div>

@@ -1,31 +1,44 @@
 .navbar {
 	width: 100%;
 	height: 70px;
-	background-color: #3bb19b;
+	background: rgb(255,255,255);
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .navbar h1 {
-	color: white;
-	font-size: 25px;
+	color: rgb(9, 106, 109);
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 35px;
 	margin-left: 20px;
+	margin-top: 12px;
+	text-shadow: none;
+	text-decoration-color: aliceblue;
 }
 .navbar_element {
-	color: aliceblue;
+	color: rgb(5, 34, 60);
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 }
+
+ 
 .white_btn {
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	border: none;
 	outline: none;
+	margin-bottom: 3px;
 	padding: 12px 0;
-	background-color: white;
-	border-radius: 20px;
+	color:#0D6EFD;
+	font-weight:bold;
+	background-color:rgb(211, 248, 251);
+	border-radius: 30px;
 	width: 120px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 22px;
 	cursor: pointer;
 	margin-right: 20px;
 }
