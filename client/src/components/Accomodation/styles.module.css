@@ -27,14 +27,15 @@
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	border: none;
 	outline: none;
+	margin-bottom: 3px;
 	padding: 12px 0;
-	color:aliceblue;
+	color:#0D6EFD;
 	font-weight:bold;
-	background-color:rgb(9, 106, 109);
+	background-color:rgb(211, 248, 251);
 	border-radius: 30px;
 	width: 120px;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	cursor: pointer;
 	margin-right: 20px;
 }
