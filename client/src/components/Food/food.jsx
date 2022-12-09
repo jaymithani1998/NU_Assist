@@ -544,8 +544,8 @@ const Food = () => {
 						<div class="col-md-6">
 							<form class="newsletter">
 								<div class="d-flex">
-									<input type="email" class="form-control" placeholder="Email US"/>
-									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button class="main-btn" >Send Message</button></a>
+									<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
+									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button style={{width:"9rem"}} class="main-btn" >Send Message</button></a>
 								</div>
 							</form>
 						</div>
