@@ -94,11 +94,9 @@ const Courses = () => {
                 <div class="col-12">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                         class="scrollspy-example" tabindex="0">
-                        <h4 id="list-item-1"></h4>
-                        <img src={cs} class="img-fluid"/>
-                              
-                            
-                        <p> 
+                        <h4 id="list-item-1" style={{textAlign:"center"}}>Master of Science in Computer Science</h4>
+                        <img src={cs} class="img-fluid"/>                        
+                        <p style={{padding:"25px"}}>
                             Northeastern University’s Master of Science in Computer Science is designed to prepare
                             students for a variety of careers in computer science. The program combines both computing
                             and important application domains—enabling you to increase your broad-based knowledge in the
@@ -130,10 +128,10 @@ const Courses = () => {
                             <br/>
                             32 total semester hours required Minimum 3.000GPA required
 						</p>
-                        <h4 id="list-item-2">Master of Science in Electrical & Computer Engineering </h4>
+                        <h4 id="list-item-2" style={{textAlign:"center"}}>Master of Science in Electrical & Computer Engineering </h4>
                         <img src={ece} class="img-fluid"/>
 
-                        <p> 
+                        <p style={{padding:"25px"}}>
                             As an MS in Electrical and Computer Engineering (Master of Science) student, you have the
                             flexibility to specialize in an area of interest with eight concentrations , research areas,
                             and experiential learning options. You will receive deep fundamental and practical knowledge
@@ -171,10 +169,9 @@ const Courses = () => {
                             <br/>
                             32 total semester hours required Minimum 3.000 GPA required
                         </p>
-                        <h4 id="list-item-3">Master of Science in Information Systems </h4>
+                        <h4 id="list-item-3" style={{textAlign:"center"}}>Master of Science in Information Systems </h4>
                         <img src={is} class="img-fluid"/>
-
-                        <p>
+                        <p style={{padding:"25px"}}>
                             We offer cutting-edge expertise in a variety of courses that combine technological advances
                             and business practices. We stress creative and inventive approaches to problem solving,
                             which necessitates empowering students so that they can take charge of their own software
@@ -217,10 +214,9 @@ const Courses = () => {
                             <br/>
                             32 total semester hours requiredMinimum 3.000 GPA required
                         </p>
-                        <h4 id="list-item-4">Master of Science in Regulatory Affairs</h4>
+                        <h4 id="list-item-4" style={{textAlign:"center"}}>Master of Science in Regulatory Affairs</h4>
                         <img src={reg} class="img-fluid"/>
-
-                        <p> 
+                        <p style={{padding:"25px"}}>
                             The rapid advancement of technology within healthcare and other sectors has driven the
                             evolution of a complex global regulatory landscape and concurrently created the need for
                             professionals with the skills necessary to facilitate the commercialization of products used
