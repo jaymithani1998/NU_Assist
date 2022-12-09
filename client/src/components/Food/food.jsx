@@ -65,7 +65,7 @@ const Food = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses
@@ -81,7 +81,7 @@ const Food = () => {
 		{/* Top Section */}
 
 		<section id="home">
-		<div class="container-fluid px-0 top-banner" style={{ backgroundImage: `url(${topBanner})`}}>
+		<div class="container-fluid px-0 top-banner" style={{ height:'100vh',backgroundImage: `url(${topBanner})`}}>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-md-6">

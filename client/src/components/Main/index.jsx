@@ -35,7 +35,7 @@ const Main = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses

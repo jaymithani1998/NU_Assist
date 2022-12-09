@@ -51,7 +51,7 @@ const Courses = () => {
 					Accomodation
 				</Link>
 				<Link to="/food" className={styles.navbar_element}>
-					Food Joints
+					Food
 				</Link>
 				<Link to="/courses" className={styles.navbar_element}>
 					Courses
@@ -290,7 +290,7 @@ const Courses = () => {
                                 <p>Professor Information Systems</p>
                                 
                                 <a href="#">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -299,12 +299,11 @@ const Courses = () => {
                         <div class="card border">
                             {/* <img src="img/SHIN.webp" class="img-fluid"/> */}
                             <div class="p-3">
-
                                 <h3>Prof.Khaled Bugrara</h3>
                                 <p>MS Information System Dean</p>
 
                                 <a href="https://www.northeastern.edu/graduate/bio/khaled-bugrara/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -316,7 +315,7 @@ const Courses = () => {
                                 <h3>Prof.Deniz Erdogmus</h3>
                                 <p>Professor and Vice Chair of Research, ECE</p>
                                 <a href="https://www.northeastern.edu/graduate/bio/deniz-erdogmus/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -329,7 +328,7 @@ const Courses = () => {
                                 <p>Professor </p>
                                 
                                 <a href="https://www.northeastern.edu/graduate/program/master-of-science-in-regulatory-affairs-boston-18359/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -342,7 +341,7 @@ const Courses = () => {
                                 <p>Professor Computer Science</p>
                                 
                                 <a href="https://www.northeastern.edu/graduate/bio/amit-shesh/">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
@@ -355,7 +354,7 @@ const Courses = () => {
                                 <p>Professor CSYE</p>
                                 
                                 <a href="#">
-                                    <button class="main-btn mt-4">Click Me</button>
+                                    <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
                         </div>
