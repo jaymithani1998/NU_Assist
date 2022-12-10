@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import topBanner from "./images/courseTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
@@ -41,7 +42,7 @@ const Courses = () => {
 			{accTopBannerStyle}
 		</style>
 		{/* NavBar */}
-		<div className={styles.main_container}>
+		<div className={styles.main_container} id="topnav">
 			<nav className={styles.navbar}>
 				<h1>NU Assist</h1>
 				<Link to="/" className={styles.navbar_element}>
@@ -63,6 +64,7 @@ const Courses = () => {
 				</button>
 			</nav>
 		</div>
+        
 		<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
 		<section id="home">
         <div class="container-fluid px-0 top-banner" style={{ backgroundImage: `url(${topBanner})`}}>
@@ -81,16 +83,7 @@ const Courses = () => {
 		<section id="about">
         	<div class="about-section wrapper">
             <div class="row">
-                {/* <div class="col-4">
-                    <div id="list-example" class="list-group">
-                        <a class="list-group-item list-group-item-action" href="#list-item-1">Master of Science in Computer Science</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-2">Master of Science in Electrical & Computer Engineering</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-3">Master of Science in Information Systems</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-4">Master of Science in Regulatory Affairs</a>
-						<a class="list-group-item list-group-item-action" href="https://catalog.northeastern.edu/graduate/">More Courses - Course Catalog</a>
-						
-                    </div>
-                </div> */}
+                
                 <div class="col-12">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                         class="scrollspy-example" tabindex="0">
@@ -268,6 +261,31 @@ const Courses = () => {
         </div>
    		 </section>
 
+
+            <section id="explore-food">
+        <div style={{paddingBottom:"0px"}} class="explore-food wrapper">
+			<div class="container">
+				<div class="row">
+						<div class="col-sm-12">
+							<div class="text-content text-center">
+								<h2 style={{marginBottom:"1rem"}}>Course Catalog</h2>
+                                <div class="card border">
+                                <div class="p-3">
+                                    <h3>Explore Courses</h3>
+                                    <p>All Courses</p>
+                                    <a href="https://catalog.northeastern.edu/graduate/">
+                                        <button class="main-btn mt-4">Learn more</button>
+                                    </a>
+                                    </div>
+                                </div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+        </div>
+    	</section>
+
 		{/* Section - Professor's  */}
 		<section id="explore-food">
         <div class="explore-food wrapper">
@@ -289,7 +307,7 @@ const Courses = () => {
                                 <h3>Prof.Vishal Chawla</h3>
                                 <p>Professor Information Systems</p>
                                 
-                                <a href="#">
+                                <a href="https://www.coursicle.com/neu/professors/Vishal+Chawla/">
                                     <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
@@ -353,7 +371,7 @@ const Courses = () => {
                                 <h3>Prof.Tejas Parikh</h3>
                                 <p>Professor CSYE</p>
                                 
-                                <a href="#">
+                                <a href="https://tejasparikh.com/">
                                     <button class="main-btn mt-4">Learn more</button>
                                 </a>
                             </div>
@@ -417,40 +435,27 @@ const Courses = () => {
 		</section>
 
 		{/* Section - Footer							 */}
-		<footer id="footer">
-			<div class="footerc pt-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 text-center">
-							<div class="footer-social pb-4 text-center">
-								<a href="#"><i class="fab fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#"><i class="fab fa-youtube"></i></a>
-								<a href="#"><i class="fab fa-dribbble"></i></a>
-								<a href="#"><i class="fab fa-linkedin"></i></a>
-								<a href="#"><i class="fab fa-instagram"></i></a>
+        <footer id="footer">
+				<div class="footerc pt-5">
+					<div class="container">
+						<div class="row">
+							<p class="text-light"><h2>Contact us:</h2></p>
+							<div class="col-md-6">
+							<p class="text-light"><b>Email:</b>  customercare@nuassist.com</p>	
+							<p class="text-light"><b>Phone:</b>  +1 (123)-567-8907</p>	
+								
 							</div>
-						</div>
-						<div class="col-md-6">
-							<form class="newsletter">
-								<div class="d-flex">
-									<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
-									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> 
-                                        <button class="main-btn" >Send Message</button></a>
-								</div>
-							</form>
-						</div>
-						<div class="col-sm-12">
-							<div class="footer-copy">
-								<div class="copy-right text-center pt-5">
-									<p class="text-light">&copy; 2022. All rights reserved.</p>
+							<div class="col-sm-12">
+								<div class="footer-copy">
+									<div class="copy-right text-center pt-5">
+										<p class="text-light">&copy; 2022. All rights reserved.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</footer>							
+		</footer>
 
 		</body>
 		</html>

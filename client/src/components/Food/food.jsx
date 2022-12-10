@@ -528,38 +528,26 @@ const Food = () => {
 
 		{/* Section - Footer							 */}
 		<footer id="footer">
-			<div class="footerc pt-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 text-center">
-							<div class="footer-social pb-4 text-center">
-								<a href="#"><i class="fab fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#"><i class="fab fa-youtube"></i></a>
-								<a href="#"><i class="fab fa-dribbble"></i></a>
-								<a href="#"><i class="fab fa-linkedin"></i></a>
-								<a href="#"><i class="fab fa-instagram"></i></a>
+				<div class="footerc pt-5">
+					<div class="container">
+						<div class="row">
+							<p class="text-light"><h2>Contact us:</h2></p>
+							<div class="col-md-6">
+							<p class="text-light"><b>Email:</b>  customercare@nuassist.com</p>	
+							<p class="text-light"><b>Phone:</b>  +1 (123)-567-8907</p>	
+								
 							</div>
-						</div>
-						<div class="col-md-6">
-							<form class="newsletter">
-								<div class="d-flex">
-									<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
-									<a href="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback"> <button style={{width:"9rem"}} class="main-btn" >Send Message</button></a>
-								</div>
-							</form>
-						</div>
-						<div class="col-sm-12">
-							<div class="footer-copy">
-								<div class="copy-right text-center pt-5">
-									<p class="text-light">&copy; 2022. All rights reserved.</p>
+							<div class="col-sm-12">
+								<div class="footer-copy">
+									<div class="copy-right text-center pt-5">
+										<p class="text-light">&copy; 2022. All rights reserved.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 
 		</html>
 	);

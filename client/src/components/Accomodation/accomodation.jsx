@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import topBanner from "./images/accmodationTop.png"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Alert from 'react-bootstrap/Alert';
 // import Accordion from 'react-bootstrap/Accordion';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
@@ -42,7 +43,6 @@ const Accomodation = () => {
 		color: var(--white-color);
 	}
 	`;
-
 
 
 	return (
@@ -280,9 +280,8 @@ const Accomodation = () => {
 									<div class="p-3">
 										<h3>OFFCAMPUSCRIBS.COM</h3>
 										<p>Browse our rental listings for off campus housing, apartments, terraces, near Boston,
-											MA. Real estate for rent, college students, off campus housing.</p>
-
-										
+											MA. Real estate for rent, college students, off campus housing.Save your favorite properties and get
+											price drop alerts.</p>
 										<a href="tel:(617) 714-5051">
 											<button class="main-btn mt-4">Call</button>
 										</a>
@@ -301,10 +300,6 @@ const Accomodation = () => {
 										<p>Make your search for a Boston apartment, home, condo, or investment property
 											effortless with a free account on Boston Pads! Save your favorite properties and get
 											price drop alerts.</p> 
-
-										
-										
-										
 										<a href="tel:(617) 208 2121">
 											<button class="main-btn mt-4">Call</button>
 										</a>
@@ -406,24 +401,11 @@ const Accomodation = () => {
 				<div class="footerc pt-5">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6 text-center">
-								<div class="footer-social pb-4 text-center">
-									<a href="#"><i class="fab fa-facebook-f"></i></a>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-youtube"></i></a>
-									<a href="#"><i class="fab fa-dribbble"></i></a>
-									<a href="#"><i class="fab fa-linkedin"></i></a>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-								</div>
-							</div>
+							<p class="text-light"><h2>Contact us:</h2></p>
 							<div class="col-md-6">
-								<form class="newsletter">
-									<div class="d-flex">
-										<input style={{color:"aliceblue"}} type="email" class="form-control" placeholder="Email US"/>
-										<a to="mailto:mithani.jay98@gmail.com?cc=mithani.jay98@gmail.com&subject=Reg:Feedback">
-											<button style={{width:"9rem"}} class="main-btn">Send Message</button></a>
-									</div>
-								</form>
+							<p class="text-light"><b>Email:</b>  customercare@nuassist.com</p>	
+							<p class="text-light"><b>Phone:</b>  +1 (123)-567-8907</p>	
+								
 							</div>
 							<div class="col-sm-12">
 								<div class="footer-copy">
