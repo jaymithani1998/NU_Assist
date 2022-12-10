@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
 import logo from './images/logo.png'; 
 
+
 const Signup = () => {
 	const [data, setData] = useState({
 		firstName: "",
@@ -37,8 +38,13 @@ const Signup = () => {
 	};
 
 	return (
-		<div className={styles.signup_container}>
+		
+		// <Container>
+		
+		<div className={styles.signup_container} id = "test">
+		
 			<div className={styles.signup_form_container}>
+				
 				<div className={styles.left}>
 				<img src={logo} alt="logo" height="300px"/>
 					<h1>Welcome Back</h1>
@@ -92,9 +98,13 @@ const Signup = () => {
 							Sign Up
 						</button>
 					</form>
+					
 				</div>
+				
 			</div>
+			
 		</div>
+		// </Container>
 	);
 };
 

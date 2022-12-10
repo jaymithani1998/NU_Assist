@@ -98,3 +98,15 @@
 	color: white;
 	margin: 10px;
 }
+@media (max-width: 730px){
+
+    /* Carousel design */
+    #test {
+        padding: 13rem 3.125rem;
+    }
+   
+
+    /* */
+
+    /* */
+}
