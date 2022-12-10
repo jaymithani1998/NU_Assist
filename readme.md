@@ -1,11 +1,9 @@
 ### Final Project Group 20
 Project name: NU ASSIST 
-s
 
-Problem statement: new students find it quite overwhelming to find different source of information and there is just one way to connect internally through student ambassadors and official websites and search around while sitting in their home country. The confusion and helplessness is unreal.
+Problem statement: New students find it quite overwhelming to find different source of information and there is just one way to connect internally through student ambassadors and official websites and search around while sitting in their home country. The confusion and helplessness is unreal.
 
 Solution: Nu assist will be a one stop website to get the information needed and connect with other seekers of information related to north-eastern. 
-Roles: Admins, student contributors, local guides(future scope), Teacher/alumni contributors. 
 
 Modules:
 1. Housing
