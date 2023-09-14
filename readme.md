@@ -1,5 +1,4 @@
-### Final Project Group 20
-Project name: NU ASSIST 
+### NU ASSIST 
 
 Problem statement: New students find it quite overwhelming to find different source of information and there is just one way to connect internally through student ambassadors and official websites and search around while sitting in their home country. The confusion and helplessness is unreal.
 
